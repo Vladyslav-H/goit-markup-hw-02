@@ -1,19 +1,66 @@
 body {
+  background-color: #ffffff;
+  color: #757575;
+  /*color: #2196F3
+          #212121
+           #757575
+            #FFFFFF;
+            #000000
+            foter #FFFFFF99; rgba(255, 255, 255, 0,6);
+background: #FFFFFF;
+         team   background: #F5F4FA;
+         footer background: #2F303A;
+        button background: #188CE8;
+
+
+
+
+*/
+}
+h1 {
+  color: #ffffff;
+}
+h2,
+h3 {
+  color: #212121;
+}
+.nolist {
+  list-style: none;
 }
 /*Логотип*/
 .logo-top {
+  color: #000000;
 }
 .logo-foot {
+  color: #ffffff;
 }
 
 .web {
+  color: #2196f3;
 }
 
 /*Шапка*/
-.site-nav {
+.site-nav a {
+  color: #212121;
 }
-
-.contacts-nav {
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+.contacts-nav a {
+  color: #757575;
+}
+.contacts-nav a:hover,
+.contacts-nav a:focus {
+  color: #2196f3;
+}
+/*Герой*/
+.hero {
+  background-color: #2f303a;
+}
+.button-hero {
+  color: #ffffff;
+  background-color: #188ce8;
 }
 /*Блок-Особенности*/
 .feature-list {
@@ -25,9 +72,17 @@ body {
 .team-list {
 }
 /*Подвал*/
-
-.contacts-footer {
+footer {
+  background-color: #2f303a;
+}
+.contacts-item {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .address-item {
+  color: #ffffff;
+}
+.contacts-footer a:hover,
+.contacts-footer a:focus {
+  color: #2196f3;
 }
