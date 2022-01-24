@@ -55,6 +55,9 @@ body {
 .hero-tytle {
   color: var(--accent-title-color);
 }
+.button {
+  cursor: pointer;
+}
 .button.primary {
   color: var(--accent-title-color);
   background-color: var(--button-background);
