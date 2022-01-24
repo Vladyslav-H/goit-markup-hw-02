@@ -17,13 +17,7 @@ background: #FFFFFF;
 
 */
 }
-h1 {
-  color: #ffffff;
-}
-h2,
-h3 {
-  color: #212121;
-}
+
 .nolist {
   list-style: none;
 }
@@ -58,21 +52,46 @@ h3 {
 .hero {
   background-color: #2f303a;
 }
+.hero-tytle {
+  color: #ffffff;
+}
 .button-hero {
   color: #ffffff;
   background-color: #188ce8;
 }
 /*Блок-Особенности*/
+.feature {
+}
+.feature-title {
+  color: #212121;
+}
 .feature-list {
 }
+.feature-item {
+  color: #212121;
+}
 /*Блок-Чем мы занимаемся*/
+.work {
+}
+.work-title {
+  color: #212121;
+}
 .works-list {
 }
 /*Блок-Наша команда*/
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  color: #212121;
+}
 .team-list {
 }
+.team-item {
+  color: #212121;
+}
 /*Подвал*/
-footer {
+.bottom {
   background-color: #2f303a;
 }
 .contacts-item {
@@ -82,7 +101,7 @@ footer {
 .address-item {
   color: #ffffff;
 }
-.contacts-footer a:hover,
-.contacts-footer a:focus {
+.contacts-bottom a:hover,
+.contacts-bottom a:focus {
   color: #2196f3;
 }
