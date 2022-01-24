@@ -12,24 +12,10 @@
   --accent-two-background: #f5f4fa;
   --button-background: #188ce8;
 }
+
 body {
   background-color: var(--primary-bacground);
   color: var(--primary-text-color);
-  /*color: #2196F3
-          #212121
-           #757575
-            #FFFFFF;
-            #000000
-            foter #FFFFFF99; rgba(255, 255, 255, 0,6);
-background: #FFFFFF;
-         team   background: #F5F4FA;
-         footer background: #2F303A;
-        button background: #188CE8;
-
-
-
-
-*/
 }
 
 .nolist {
@@ -69,7 +55,7 @@ background: #FFFFFF;
 .hero-tytle {
   color: var(--accent-title-color);
 }
-.button-hero {
+.button.primary {
   color: var(--accent-title-color);
   background-color: var(--button-background);
 }
@@ -90,7 +76,7 @@ background: #FFFFFF;
 .work-title {
   color: var(--title-text-color);
 }
-.works-list {
+.work-list {
 }
 /*Блок-Наша команда*/
 .team {
@@ -118,4 +104,26 @@ background: #FFFFFF;
 .contacts-bottom a:hover,
 .contacts-bottom a:focus {
   color: var(--accent-text-color);
+}
+/*Портфолио*/
+.filters {
+}
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--accent-two-background);
+}
+.filters button:hover,
+.filters button:focus {
+  background-color: var(--accent-text-color);
+  color: var(--accent-title-color);
+}
+.portfolio {
+}
+.portfolio-title {
+  color: var(--title-text-color);
+}
+.portfolio-list {
+}
+.portfolio-item {
+  color: var(--title-text-color);
 }
