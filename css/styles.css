@@ -19,6 +19,8 @@ body {
 
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .nolist {
@@ -36,7 +38,7 @@ body {
   color: var(--accent-text-color);
 
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -44,6 +46,11 @@ body {
 /*Шапка*/
 .site-nav a {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -51,6 +58,11 @@ body {
 }
 .contacts-nav a {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts-nav a:hover,
 .contacts-nav a:focus {
@@ -62,13 +74,29 @@ body {
 }
 .hero-tytle {
   color: var(--accent-title-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button {
   cursor: pointer;
+  font-family: inherit;
 }
-.button.primary {
+.primary {
   color: var(--accent-title-color);
   background-color: var(--button-background);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 /*Блок-Особенности*/
 .feature {
@@ -80,12 +108,22 @@ body {
 }
 .feature-item {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 /*Блок-Чем мы занимаемся*/
 .work {
 }
 .work-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 .work-list {
 }
@@ -95,15 +133,36 @@ body {
 }
 .team-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 .team-list {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 .team-item {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-title .text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 /*Подвал*/
 .bottom {
   background-color: var(--accent-bacground);
+
+  font-size: 14px;
+  line-height: 1.71;
 }
 .contacts-item {
   color: var(--accent-two-color);
