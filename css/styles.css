@@ -41,6 +41,8 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
+  text-decoration: none;
 }
 
 /*Шапка*/
@@ -51,6 +53,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -63,6 +67,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 .contacts-nav a:hover,
 .contacts-nav a:focus {
@@ -139,11 +145,11 @@ body {
   line-height: 1.17;
   text-align: center;
 }
-.team-list {
+/*.team-list {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-}
+}*/
 .team-item {
   color: var(--title-text-color);
 
@@ -152,7 +158,7 @@ body {
   line-height: 1.19;
   text-align: center;
 }
-.team-title .text {
+.team-list .text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -160,16 +166,19 @@ body {
 /*Подвал*/
 .bottom {
   background-color: var(--accent-bacground);
-
   font-size: 14px;
   line-height: 1.71;
 }
 .contacts-item {
   color: var(--accent-two-color);
+
+  text-decoration: none;
 }
 
 .address-item {
   color: var(--accent-title-color);
+
+  text-decoration: none;
 }
 .contacts-bottom a:hover,
 .contacts-bottom a:focus {
