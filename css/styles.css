@@ -16,6 +16,9 @@
 body {
   background-color: var(--primary-bacground);
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .nolist {
@@ -29,8 +32,13 @@ body {
   color: var(--accent-title-color);
 }
 
-.web {
+.logo {
   color: var(--accent-text-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 /*Шапка*/
