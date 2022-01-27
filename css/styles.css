@@ -5,7 +5,7 @@
   --accent-title-color: #ffffff;
   --accent-text-color: #2196f3;
   --accent-one-color: #000000;
-  --accent-two-color: rgba(255, 255, 255, 0, 6);
+  --accent-two-color: rgba(255, 255, 255, 0.6);
   /*Фон*/
   --primary-bacground: #ffffff;
   --accent-bacground: #2f303a;
@@ -149,11 +149,9 @@ body {
 }
 .contacts-item {
   color: var(--accent-two-color);
-  text-decoration: none;
 }
 .address-item {
   color: var(--accent-title-color);
-  text-decoration: none;
 }
 .contacts-bottom a:hover,
 .contacts-bottom a:focus {
@@ -161,6 +159,7 @@ body {
 }
 .contacts-bottom {
   font-style: normal;
+  text-decoration: none;
 }
 
 /*Портфолио*/
