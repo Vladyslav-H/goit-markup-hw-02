@@ -159,6 +159,9 @@ body {
 .contacts-bottom a:focus {
   color: var(--accent-text-color);
 }
+.contacts-bottom {
+  font-style: normal;
+}
 
 /*Портфолио*/
 .button.secondary {
