@@ -42,7 +42,7 @@ body {
 }
 
 /*Шапка*/
-.site-nav a {
+.site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -50,8 +50,11 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+.site-nav .link.current {
   color: var(--accent-text-color);
 }
 .contacts-nav a {
