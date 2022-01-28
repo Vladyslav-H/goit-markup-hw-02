@@ -160,7 +160,7 @@ body {
 .contacts-bottom a:focus {
   color: var(--accent-text-color);
 }
-.contacts-bottom {
+.contacts-bottom a {
   font-style: normal;
   text-decoration: none;
 }
